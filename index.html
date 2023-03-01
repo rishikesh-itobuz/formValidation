@@ -13,130 +13,86 @@
     />
     <script src="./practise.js"></script>
   </head>
-  <body>
-    <form action="" onsubmit=" return formValidator()" class="container-fluid ">
-      <div class="row mt-5">
-        <label for="" class="col-1 fs-5">FirstName</label>
-        <input
-          type="text"
-          name=""
-          id="firstname"
-          placeholder="Firstname *"
-          class="col-4 m-0 p-2"
-        />
-        <label for="" class="col-1 offset-1 fs-5">LastName</label>
-        <input
-          type="text"
-          name=""
-          id="lastname"
-          placeholder="Lastname"
-          class="col-4 m-0 p-2"
-        />
+  <body>  
+         
+   
+    <form action="" onsubmit=" return formValidator()" class="container mt-5">
+
+      <!--REGISTRATION FORM HEADING-->
+
+      <h1 class="text-md-center text-primary fw-medium mt-5 mb-5 text-underline">Registration Form</h1>
+      
+      <!--FIRST NAME AND LAST NAME SECTION-->
+
+      <div class="row mt-4 mt-md-5">
+        <label for="" class="col-lg-1 col-md-2 col-sm-3  col-4 fs-5  ">FirstName</label>
+        <input type="text" name="" id="firstname" placeholder="Firstname *" class="col-lg-4 col-md-3 col-sm-9  col-8 m-0 p-2"/>
+        <label for="" class="col-lg-1 col-md-2 col-sm-3 col-4 offset-md-1 fs-5 my-3 my-md-0">LastName</label>
+        <input type="text" name="" id="lastname" placeholder="Lastname" class="col-lg-4 col-md-3 col-sm-9 col-8 p-2 my-3 my-md-0" />
       </div>
 
-      <div class="row mt-5">
-        <label for="" class="col-1 fs-5">Age</label>
-        <input
-          type="number"
-          name=""
-          id=""
-          placeholder="Age *"
-          class="col-4 m-0 p-2 d-flex"
-        />
-        <label for="" class="col-1 offset-1 fs-5">Email</label>
-        <input
-          type="email"
-          name=""
-          id=""
-          placeholder="Email *"
-          class="col-4 m-0 p-2"
-        />
+       <!--DOB AND EMAIL SECTION-->
+
+      <div class="row mt-0 mt-md-5">
+        <label for="" class="col-lg-1 col-md-2 col-sm-3  col-4 fs-5 my-3 my-md-0">D.O.B</label>
+        <input type="date" name="" id="" placeholder="" class="col-lg-4 col-md-3 col-sm-9  col-8  p-2 my-3 my-md-0" required />
+        <label for="" class="col-lg-1 col-md-2 col-sm-3  col-4 fs-5  offset-md-1 my-3 my-md-0">Email</label>
+        <input type="email" name="" id="" placeholder="Email *" class="col-lg-4 col-md-3 col-sm-9  col-8  p-2 my-3 my-md-0" required/>
       </div>
 
-      <div class="row mt-5">
-        <label for="" class="col-1 fs-5">Address</label>
+      <!--ADDRESS SECTION-->
 
-        <input
-          type="text"
-          name=""
-          id="address"
-          placeholder=" First line street Address *"
-          class="col-10 offset-1 m-0 p-2"
-        />
+      <div class="row mt-4 mt-md-5 mt-md-5">
+        <label for="" class="col-lg-1 col-md-2 col-sm-3  col-4 fs-5 my-3 my-md-0">Address</label>
+        <input type="text" name="" id="address" placeholder=" First line street Address *" class="col-lg-10 col-md-9 col-sm-9  col-8  p-2 my-3 my-md-0" />
       </div>
 
-      <div class="row mt-5">
-        <label for="" class="col-1 fs-5"></label>
-        <input
-          type="text"
-          name=""
-          id=""
-          placeholder="Street Address"
-          class="col-10 offset-sm-2 m-0 p-2"
-        />
+      <!--STREET ADDRESS SECTION-->
+
+      <div class="row mt-4 mt-md-5">
+        <label for="" class="col-lg-1 col-md-2 col-sm-3  col-4 fs-5 my-3 my-md-0"></label>
+        <input type="text" name="" id="" placeholder="Street Address" class="col-lg-10 col-md-9 col-sm-9  col-8  p-2 my-3 my-md-0"/>
       </div>
 
-      <div class="row mt-5">
-        <label for="" class="col-1 fs-5">City</label>
-        <input
-          type="text"
-          name=""
-          id=""
-          placeholder="City"
-          class="col-4 m-0 p-2 d-flex"
-        />
-        <label for="" class="col-1 offset-1 fs-5">State
-        </label>
-        <input
-          type="text"
-          name=""
-          id=""
-          placeholder="State"
-          class="col-4 m-0 p-2" 
-        />
-      </div>
-      <div class="row mt-5">
-        <label for="" class="col-1 fs-5">Country</label>
-        <input
-          type="text"
-          name=""
-          id=""
-          placeholder="Country"
-          class="col-4 m-0 p-2 d-flex"
-        />
-        <label for="" class="col-1 offset-1 fs-5">pin-code
-        </label>
-        <input
-          type="number"
-          name=""
-          id=""
-          placeholder="pin-code"
-          class="col-4 m-0 p-2" 
-        />
+      <!--CITY AND STATE SECTION-->
+
+      <div class="row mt-0 mt-md-5">
+        <label for="" class="col-lg-1 col-md-2 col-sm-3  col-4 fs-5 my-3 my-md-0 ">City</label>
+        <input type="text" name="" id="" placeholder="City" class="col-lg-4 col-md-3 col-sm-9  col-8  p-2 my-3 my-md-0"/>
+        <label for="" class="col-lg-1 col-md-2 col-sm-3  col-4 fs-5 offset-md-1 my-3 my-md-0">State</label>
+        <input type="text" name="" id="" placeholder="State" class="col-lg-4 col-md-3 col-sm-9  col-8  p-2 my-3 my-md-0" />
       </div>
 
+      <!--COUNTRY AND PINCODE SECTION-->
 
-      <div class="row mt-5 mb-5">
-        <label for="" class="col-1 fs-5">Contact</label>
-        <input
-          type="Mobile number *"
-          name=""
-          id=""
-          placeholder="Contact *"
-          class="col-4 m-0 p-2 d-flex"
-        />
-        <label for="" class="col-1 offset-1 fs-5">Password
-        </label>
-        <input
-          type="password"
-          name=""
-          id="password"
-          placeholder="password *"
-          class="col-4 m-0 p-2" 
-        />
+      <div class="row mt-0 mt-md-5">
+        <label for="" class="col-lg-1 col-md-2 col-sm-3  col-4 fs-5 my-3 my-md-0">Country</label>
+        <div  class="col-lg-4 col-md-3 col-sm-9  col-8 my-3 my-md-0 ">
+          <select class="form-select form-select-lg " aria-label=".form-select-lg example">
+              <option selected>India</option>
+              <option value="1">USA</option>
+              <option value="2">Canada</option>
+              <option value="3">Australia</option>
+              <option value="4">Others</option>
+            </select>
+      </div>
+      
+        <label for="" class="col-lg-1 col-md-2 col-sm-3  col-4 fs-5 offset-md-1 my-3 my-md-0">pin-code</label>
+        <input type="number" name="" id="pincode" placeholder="pin-code" class="col-lg-4 col-md-3 col-sm-9  col-8   my-3 my-md-0" />
       </div>
 
-      <input type="submit" class="col-3  p-2 offset-5 mt-4 bg-primary fs-bold text-light fs-4">
+      <!--CONTACT AND PASSWORD SECTION-->
+      
+      <div class="row mt-0 mt-md-5 ">
+        <label for="" class="col-lg-1 col-md-2 col-sm-3  col-4 fs-5 my-3 my-md-0">Contact</label>
+        <input type="number" name="" id="contact"  placeholder="Contact *" class="col-lg-4 col-md-3 col-sm-9  col-8  p-2 my-3 my-md-0"required/>
+        <label for="" class="col-lg-1 col-md-2 col-sm-3  col-4 fs-5 offset-md-1 my-3 my-md-0">Password</label>
+        <input type="password" name="" id="password" placeholder="password *" class="col-lg-4 col-md-3 col-sm-9  col-8  p-2 my-3 my-md-0" required/>
+      </div>
+
+      <!--Submit button-->
+
+      <input type="submit" class="col-lg-3  p-2 offset-5 mt-5 bg-primary fs-bold text-light fs-4" id="submit" onclick="">
 
     </form>
 
